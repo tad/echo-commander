@@ -4,6 +4,7 @@
 var restify = require('restify');
 var http = require('http');
 var hueHelper = require('./bin/hue-helper');
+var commandParser = require('./bin/command-parser');
 
 var server = restify.createServer({
     name: 'echo-test'
@@ -15,7 +16,9 @@ server.use(restify.queryParser());
 
 server.get('/echocommand/', function(request, response, next) {
     var command = request.query.q;
-    console.log(command);
+    commandParser.executeCommand(command, function(result) {
+       console.log(result);
+    });
     response.send('OK');
     return next();
 });
