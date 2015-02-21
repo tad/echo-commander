@@ -19,6 +19,34 @@ I will be making changes to this code irregularly as I find time.
 Feel free to use this code in any way you see fit. If you find anything that I've done to be useful, please link back to this project.
 Definitely link back to the projects listed below under the Thanks section.
 
+## Vague Instructions
+
+I could totally be missing steps below. Let me know:
+
+Pull down this source
+
+Update urls to point to YOUR Hue bridge. See above.
+
+npm install
+
+npm start
+
+Go to echo.amazon.com and sign into your Echo.
+
+Copy the code in the history-page-snippet.js file onto the clipboard
+
+Go to Settings->History and then open the Javascript Console (Cmd-option-J) and paste in the snippet.
+
+Try some of these:
+Alexa, turn the lights on stop.
+Alexa, turn the lights off stop.
+Alexa, lights color red stop.
+Alexa, lights color green stop.
+Alexa, set the lights to default stop.
+
+You should see your commands show up on the History page in the browser as well as in the node console along with other info to help debug!
+
+
 ## Thanks
 This work is based on the project described at the link below:
 http://blog.zfeldman.com/2014-12-28-using-amazon-echo-to-control-lights-and-temperature/
