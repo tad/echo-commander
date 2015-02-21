@@ -1,9 +1,7 @@
-/**
- * Created by terrydonaghe on 2/15/15.
- */
+// Copyright (c) 2015 Terry Donaghe
+
 var restify = require('restify');
 var http = require('http');
-var hueHelper = require('./bin/hue-helper');
 var commandParser = require('./bin/command-parser');
 
 var server = restify.createServer({

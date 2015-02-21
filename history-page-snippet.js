@@ -1,6 +1,4 @@
-/**
- * Created by terrydonaghe on 2/15/15.
- */
+// Based on work here: http://blog.zfeldman.com/2014-12-28-using-amazon-echo-to-control-lights-and-temperature/
 var lastCommand;
 $(document).ajaxComplete(function(){
     var command = $(".dd-title.d-dialog-title").first().text();

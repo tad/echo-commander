@@ -1,6 +1,5 @@
-/**
- * Created by tdonaghe on 2/11/15.
- */
+// Copyright (c) 2015 Terry Donaghe
+
 var path    = require('path'),
     exec    = require('child_process').exec,
     nodemon = require('nodemon');
