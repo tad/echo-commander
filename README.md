@@ -37,12 +37,12 @@ Copy the code in the history-page-snippet.js file onto the clipboard
 
 Go to Settings->History and then open the Javascript Console (Cmd-option-J) and paste in the snippet.
 
-Try some of these:
-Alexa, turn the lights on stop.
-Alexa, turn the lights off stop.
-Alexa, lights color red stop.
-Alexa, lights color green stop.
-Alexa, set the lights to default stop.
+Try some of these:  
+Alexa, turn the lights on stop.  
+Alexa, turn the lights off stop.  
+Alexa, lights color red stop.  
+Alexa, lights color green stop.  
+Alexa, set the lights to default stop.  
 
 You should see your commands show up on the History page in the browser as well as in the node console along with other info to help debug!
 
