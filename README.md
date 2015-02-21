@@ -57,5 +57,5 @@ Major thanks also to the project below. I'm using a barely modified version of h
 He also has code to convert from Hex color values to XY cooords.
 https://github.com/bjohnso5/hue-hacking
 
-You can find a big list of color names to RGB codes (and hex values) here:
+You can find a big list of color names to RGB codes (and hex values) here:  
 http://cloford.com/resources/colours/500col.htm
