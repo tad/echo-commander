@@ -2,6 +2,9 @@
 
 An experimental project to get Amazon Echo to communicate with various APIs via voice commands, the Phillips Hue API in particular.
 
+## Example Video
+http://youtu.be/zFZ3T4EaUH4
+
 ## Notes
 This code is VERY primitive, and not at all reflective of what proper code should look like. Very little refactoring has been done yet. Very few features are available.  
 This is purely experimental and is designed solely to be a proof of concept and a toy.  
